@@ -409,6 +409,30 @@ i, p{
           border: gray 1px solid;
      }
 }
+@media screen and (max-width:1240px) {
+     #immaginiscritte {
+          display: none !important;
+     }
+     #scritta{
+          display: none !important;
+     }
+     #striscia-rossa{
+          width: 95% !important;
+          margin-top: 15px !important;
+          font-size: 22px !important;
+     }
+     .col-2 {
+          display: none !important;
+     }
+     #immagine1, #scrittaimm{
+          margin-left: 10px !important;
+          width: 95% !important;
+     }
+     #scrittaimm{
+          font-size: 24px !important;
+     }
+
+}
 
 .col-md-3:hover{
       text-decoration: white underline;
