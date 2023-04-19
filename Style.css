@@ -1,0 +1,487 @@
+.container1{
+     display: flex;
+     background-color: #eb3c44;
+     height: 90px;
+     width: 100%;
+}
+#navbarNavDropdown{
+     background-color: #eb3c44;
+     margin-left: 20px;
+}
+.dropdown-toggle, .nav-link{
+     color: white;
+     margin-right: 10px;
+     font-weight: bold;
+     font-size: 14px;
+     border: 0;
+     border-color: #eb3c44;
+}
+
+.dropdown-toggle:hover, .nav-link:hover{
+     color: white;
+     border: 0;
+     border-color: #eb3c44;
+}
+
+.dropdown-item{
+     margin: 20px 10px 20px 10px;
+     font-size: 16px;
+}
+
+.container-icon{
+     margin-top: 30px;
+     margin-left: 30px;
+}
+
+.container-icon i{
+     color: white;
+     font-size: 25px;
+     margin-right: 8px;
+}
+
+#strisciaverticale{
+     width: 1px;
+   border-left: 2px solid white;
+     height: 45px;
+     margin-top:20px;
+     margin-left: 10px;
+}
+
+.container-fluid {
+     background-color: #eb3c44;
+}
+
+.bg-light{
+     padding: 0;
+}
+
+nav div div ul ul li {
+     padding: 0;
+     display:block;
+     color:white;
+     font-size:12px;
+}
+
+.arrow {
+     border: solid white;
+     border-width: 0 3px 3px 0;
+     display: inline-block;
+     padding: 3px;
+}
+
+.link-list{
+     padding: 5px 2px 5px 2px;
+     font-size: 15px;
+}
+
+.down {
+     transform: rotate(45deg);
+}
+
+.navbar-nav .nav-link span, nav div a span {
+     color: white;
+     font-size: 14px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     width: 50px;
+     height: 30px;
+     padding: 0;
+}
+
+.d-flex button:hover{
+     background-color: #eb3c44;
+}
+
+.sinistra button, .destra button, .d-flex button {
+     border: 0;
+     width: 10px;
+}
+.sinistra, .destra {
+     float: left;
+     box-sizing: border-box;
+}
+.sinistra {
+     border-right: 2px solid;
+     padding-right: 20px;
+     border-color: white;
+}
+.white{
+     color:white;
+     font-size: 20px;
+}
+
+div.scroll-menu {
+     background-color: #333;
+     overflow: auto;
+     white-space: nowrap;
+}
+div.scroll-menu::-webkit-scrollbar{
+      display: none;
+ }
+div.scroll-menu a {
+     display: inline-block;
+     color: white;
+     text-align: center;
+     padding: 14px;
+     text-decoration: none;
+}
+div.scrollmenu a:hover {
+     background-color: #777;
+}
+
+.row-cols-2{
+     height: 130px;
+     margin-top: 5px;
+}
+
+.row-cols-1{
+     border-right: #eb3c44 5px;
+     width: 100%;
+     height: 160px;
+}
+
+i, p{
+     display: inline;
+}
+
+.row-cols-2 p{
+     color: white;
+     font-family: "Open Sans",sans-serif;
+     font-size: 100%;
+     font-weight: 700;
+     letter-spacing: -0.08px;
+     line-height: 22px;
+     position: relative;
+     text-indent: 20px;
+     text-align: left;
+}
+
+#freccia, #freccia1,#freccia2{
+     height: 10px;
+     font-size: 0;
+     line-height: 0;
+     width: 0;
+     border-top: 8px solid white;
+     border-left: 8px solid #ea042c;
+     border-bottom: 8px solid white;
+
+}
+
+#logo{
+   margin-left: 3px;
+     display: flex;
+}
+
+#scritte{
+     display: flex;
+     justify-content: center;
+}
+
+#primastriscia{
+     background-color: white;
+     height: 90px;
+     border-left: 10px solid #ea042c;
+     margin-left: 10px;
+}
+
+#scritta{
+     background-color: white;
+     height: 70px;
+     margin-left: 22px;
+     margin-bottom: 5px;
+     margin-top: 20px;
+     font-size: 22px;
+     line-height: 1.4;
+     color: #6F6F6F;
+}
+
+#colonna1{
+     width: 300px;
+     margin-left: 0;
+     height: 50px;
+     margin-right: 446px;
+}
+
+#riga1colonna1{
+     height: 25px;
+     margin-top: 5px;
+}
+
+#riga1clonna2{
+     height: 20px;
+     margin-bottom: 5px;
+}
+
+#riga1colonna1 img, #riga1colonna1 div{
+     display: inline;
+}
+
+#riga1colonna1 div{
+     font-family: Signika Negative, Signika Negative-fallback, Open Sans, Open Sans-fallback, system-ui, sans-serif;
+     color: #6F6F6F;
+}
+
+#stessariga1, #stessariga2, #stessariga11, #stessariga22{
+     display: inline;
+}
+
+#campanella{
+     background-color: grey;
+     width: 35px;
+     height: 35px;
+     opacity: 63.5%;
+     position: fixed;
+     bottom:80px;
+     left:1210px;
+}
+.menuscrollgrosso{
+     display: flex;
+     background-color: #eb3c44;
+     border-left: 50px solid #eb3c44;
+     border-top: 20px solid #eb3c44;
+}
+
+.menuscrollgrosso div{
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: 12px;
+     color: white;
+}
+.menuscrollgrosso div:hover, .scroll-menu a:hover{
+     text-decoration: underline;
+}
+@media screen and (min-width: 800px){
+     .scroll-menu{
+          display: none !important;
+     }
+     #followus{
+          display: none;
+     }
+
+}
+@media screen and (max-width:800px) {
+     .menuscrollgrosso{
+          display: none !important;
+     }
+     #logo{
+          display: none !important;
+     }
+     #striscia-rossa{
+          width: 95% !important;
+          margin-top: 15px !important;
+          font-size: 22px !important;
+     }
+     #primastriscia{
+          height: 70px !important;
+     }
+
+     #scritta{
+          display: none !important;
+     }
+
+     #secondanav{
+          width: 95% !important;
+     }
+
+     #riga1colonna1 div, #riga1clonna2 div{
+          font-size: 10px !important;
+     }
+     .col-2 {
+          display: none !important;
+     }
+
+     #colonnanas{
+          display: none !important;
+     }
+
+     .row-cols-2 p{
+          font-size: 50% !important;
+     }
+
+     #immagine1, #scrittaimm{
+          margin-left: 10px !important;
+          width: 95% !important;
+     }
+
+     #scrittaimm{
+          font-size: 24px !important;
+     }
+
+     .col-md-8, #imm2, #imm3, #imm4{
+          width: 100% !important;
+     }
+
+     #imm2, #imm3, #imm4{
+          height: 400px !important;
+     }
+
+     .col-md-4{
+          margin-top: 70px !important;
+     }
+
+     #immaginiscritte{
+          display: none !important;
+     }
+
+     #followus{
+          display: none;
+     }
+
+     #immaginelogo{
+          position: relative;
+          left: 80px;
+          z-index: 3;
+     }
+
+     .container-icon i{
+          font-size: 20px;
+          position: relative;
+          left: 55px;
+     }
+
+     .container-icon{
+          position: fixed;
+          left: 220px;
+     }
+
+     #iconcolor4{
+          position: fixed;
+          left: 400px !important;
+          top:35px;
+     }
+
+     #iconcolor5{
+          position: fixed;
+          left: 455px !important;
+          top:35px;
+     }
+
+     #strisciaverticale{
+          position: fixed;
+          left: 379px;
+     }
+
+     #linearossa{
+          display: none !important;
+     }
+
+     .navbar{
+          position: relative;
+          right: 65px;
+     }
+
+     #navbarNavDropdown{
+          background-color: #333333 !important;
+          width: 487px;
+          height: 500px;
+          position: fixed;
+          top:78px;
+          left: -20px;
+     }
+     .dropdown-toggle, .nav-link{
+          font-size: 20px;
+          margin-top: 8px;
+          margin-bottom: 5px;
+          margin-left: 15px;
+          padding: 0;
+     }
+
+     .nav-link{
+          width: 300px;
+     }
+
+     .dropdown{
+          background-color: #333333;
+     }
+
+     .dropdown-item{
+          margin: 3px 0 4px 10px;
+          padding: 0;
+          color: white;
+     }
+     .navbar-nav .dropdown-menu{
+          width: 250px;
+          height: 300px;
+          position: fixed !important;
+          top:100px;
+          left: 200px;
+          background-color: #4D4D4D;
+          border: gray 1px solid;
+     }
+}
+
+.col-md-3:hover{
+      text-decoration: white underline;
+ }
+
+.icone{
+     display: flex;
+     justify-content: center;
+     margin-left: 8px;
+     margin-bottom: 10px;
+}
+.icone i{
+     margin-right:10px;
+     height: 25px;
+     width: 25px;
+     font-size: 20px;
+}
+
+.testo a:hover{
+     color: white;
+}
+
+.testo{
+     margin-right: 8px;
+     margin-left: 8px;
+}
+.testo a{
+     color: gray;
+     text-decoration: none;
+     border-right: grey 1px solid;
+     margin-left: 3px;
+     margin-right: 3px;
+}
+
+.eliminanav, .conta{
+     background-color: white;
+     width: 10px;
+     height: 42px;
+}
+
+.header-color{
+     background-color: white !important;
+     position: fixed;
+     z-index: 3;
+     height: 79px;
+}
+
+.iconcolor1-color{
+     color: blue !important;
+}
+
+.iconcolor2-color{
+     color: deepskyblue !important;
+}
+
+.iconcolor3-color{
+     color:hotpink !important;
+}
+
+.iconcolor4-color, .iconcolor5-color{
+     color: black !important;
+}
+
+.aggiungifollowus{
+     display: flex !important;
+     margin-left: 700px;
+     font-weight: bold;
+     margin-right: 50px;
+     margin-top: 30px;
+     font-size: 16px;
+}
+
+#immaginelogo{
+     width:140px;
+     height:80px;
+}

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Daily Record</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2534bccb82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body >
+<header>
+    <div class="container1" id="header" style="background-color: #eb3c44;">
+        <div class="logo-daily">
+                <a href="#">
+                    <img src="Daily_Record_logo.svg.png" id="immaginelogo" alt="logo" >
+                </a>
+        </div>
+        <div class="navbar" >
+            <nav class="navbar navbar-expand-lg navbar-nav bg-light">
+                <div class="container-fluid" id="conta" style="color: transparent; padding: 0">
+                    <button class="navbar-toggler"  id="menupagpiccola" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" ></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown" style="z-index: 4;" >
+                        <ul class="navbar-nav" id="navbar">
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    NEWS
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Latest News</a></li>
+                                    <li><a class="dropdown-item" href="#">Scottish News</a></li>
+                                    <li><a class="dropdown-item" href="#">UK & World News</a></li>
+                                    <li><a class="dropdown-item" href="#">Politics</a></li>
+                                    <li><a class="dropdown-item" href="#">Crime</a></li>
+                                    <li><a class="dropdown-item" href="#">Health</a></li>
+                                    <li><a class="dropdown-item" href="#">Real Life</a></li>
+                                    <li><a class="dropdown-item" href="#">Business & Consumer</a></li>
+                                    <li><a class="dropdown-item" href="#">Weird News</a></li>
+                                    <li><a class="dropdown-item" href="#">Science & Technology</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-link"> POLITICS </li>
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    FOOTBALL
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Scottish Premiership</a></li>
+                                    <li><a class="dropdown-item" href="#">Scottish Championship</a></li>
+                                    <li><a class="dropdown-item" href="#">Scottish Cup</a></li>
+                                    <li><a class="dropdown-item" href="#">Premier Sports Cup</a></li>
+                                    <li><a class="dropdown-item" href="#">Scotland Football Team</a></li>
+                                    <li><a class="dropdown-item" href="#">Transfer News</a></li>
+                                    <li><a class="dropdown-item" href="#">English Premier League</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-link"> POLITICS </li>
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    SPORT
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Latest Sport</a></li>
+                                    <li><a class="dropdown-item" href="#">Football</a></li>
+                                    <li><a class="dropdown-item" href="#">Horse Racing</a></li>
+                                    <li><a class="dropdown-item" href="#">Rugby</a></li>
+                                    <li><a class="dropdown-item" href="#">Golf</a></li>
+                                    <li><a class="dropdown-item" href="#">Tennis</a></li>
+                                    <li><a class="dropdown-item" href="#">Boxing</a></li>
+                                    <li><a class="dropdown-item" href="#">Darts</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    TV & CELEBS
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Latest Celebs</a></li>
+                                    <li><a class="dropdown-item" href="#">Celebrity News</a></li>
+                                    <li><a class="dropdown-item" href="#">TV & Radio News</a></li>
+                                    <li><a class="dropdown-item" href="#">Celebrity Interviews</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-link"> LIFE & STYLE </li>
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    MORE
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Partner Stories</a></li>
+                                    <li><a class="dropdown-item" href="#">Scotland Now</a></li>
+                                    <li><a class="dropdown-item" href="#">In Your Area</a></li>
+                                    <li><a class="dropdown-item" href="#">Business</a></li>
+                                    <li><a class="dropdown-item" href="#">Travel</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="followus" style="color: #eb3c44">FOLLOW US</div>
+        <div class="container-icon" >
+            <i class="fab fa-facebook-square" id="iconcolor1"></i>
+            <i class="fab fa-twitter-square" id="iconcolor2"></i>
+            <i class="fab fa-instagram" id="iconcolor3"></i>
+        </div>
+        <div id="strisciaverticale"></div>
+        <div class="container-icon" style="margin-left:20px">
+            <i class="fas fa-search" id="iconcolor4"></i>
+        </div>
+        <div class="container-icon">
+            <i class="fas fa-user-alt" id="iconcolor5"></i>
+        </div>
+
+    </div>
+
+
+
+    <div class="scroll-menu" style="background-color: #eb3c44; border-bottom: 0">
+        <a href="#" >BUY A PAPER</a>
+        <a href="#">ROAD RECORD</a>
+        <a href="#">PROPERTY</a>
+        <a href="#">MARKETPLACE</a>
+        <a href="#">COMPETITIONS</a>
+        <a href="#">HOROSCOPES</a>
+        <a href="#">DEALS</a>
+        <a href="#">FUNERAL NOTICE</a>
+        <a href="#">JOB</a>
+        <a href="#">CROSSWORDS</a>
+        <a href="#">ADVERTISE WITH US</a>
+        <a href="#">NEWSLETTER SIGNUP</a>
+    </div>
+    <div class="menuscrollgrosso">
+        <div>BUY A PAPER</div>
+        <div>ROAD RECORD</div>
+        <div>PROPERTY</div>
+        <div>MARKETPLACE</div>
+        <div>COMPETITIONS</div>
+        <div>HOROSCOPES</div>
+        <div>DEALS</div>
+        <div>FUNERAL NOTICE</div>
+        <div>JOB</div>
+        <div>CROSSWORDS</div>
+        <div>ADVERTISE WITH US</div>
+        <div>NEWSLETTER SIGNUP</div>
+    </div>
+    <hr id="linearossa" style="height: 25px; background-color: #eb3c44; margin: 0; opacity: 1; border-top: 0">
+    <div class="container-fluid" id="immaginiscritte" style="background-color: #eb3c44; height: 270px; border-left: #eb3c44 10px;">
+        <div class="row">
+            <div class="col">
+                <div class="row-cols-1">
+                    <img src="https://picsum.photos/400/292" alt="primo paesaggio" style="width: 100%">
+                </div>
+                <div class="row-cols-2">
+                    <i class="fas fa-arrow-alt-circle-right" style="color:black; width:5px; margin-right: 7px"></i>
+                    <p> Woman dies after fall from cruise ship balcony and landing on another passenger</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row-cols-1" >
+                    <img src="https://picsum.photos/400/291" alt="seconda immagine" style="width: 100%">
+                </div>
+                <div class="row-cols-2">
+                    <i class="fas fa-arrow-alt-circle-right" style="color:black; width:5px; margin-right: 7px"></i>
+                    <p> One person dead and dozens injured after train carriages derail in horror crash</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row-cols-1" >
+                    <img src="https://picsum.photos/400/293" alt="terza immagine" style="width: 100%">
+                </div>
+                <div class="row-cols-2">
+                    <i class="fas fa-arrow-alt-circle-right" style="color:black; width:5px; margin-right: 7px"></i>
+                    <p> Rutherglen man was issued fine for parking in his own disabled bay</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row-cols-1" >
+                    <img src="https://picsum.photos/401/292" alt="quarta immagine" style="width: 100%">
+                </div>
+                <div class="row-cols-2">
+                    <i class="fas fa-arrow-alt-circle-right" style="color:black; width:5px; margin-right: 7px"></i>
+                    <p> Paul O'Grady 'didn't listen' to health concerns, according to close pal</p>
+                </div>
+            </div>
+            <div class="col" id="colonnanas">
+                <div class="row-cols-1" >
+                    <img src="https://picsum.photos/401/293" alt="quinta immagine" style="width: 100%">
+                </div>
+                <div class="row-cols-2">
+                    <i class="fas fa-arrow-alt-circle-right" style="color:black; width:5px; margin-right: 7px"></i>
+                    <p>  Prosecutors seek £195K from Natalie McGarry's husband afte her conviction</p>
+                </div>
+            </div>
+    </div>
+</div>
+  </header>
+<div class="rounded-pill" id="campanella">
+    <i class="fas fa-bell" style="color: white; font-size: x-large; margin-top:6px; margin-left:7px"></i>
+</div>
+<div class="container-fluid" id="logo" style="height: 60px; background-color: white">
+    <img src="R.png" alt="logo" style="margin-top: 20px; float:left; height: 30px">
+    <div id="scritte">
+        <div id="freccia" style="margin-right: 5px;margin-top: 25px"></div>
+        <div style="margin-right: 5px; margin-left: 5px; margin-top: 20px">News</div>
+        <div id="freccia1" style="margin-right: 5px;margin-top: 25px"></div>
+        <div style="margin-right: 5px; margin-left: 5px; margin-top: 20px">Scottish News</div>
+        <div id="freccia2" style="margin-right: 5px;margin-top: 25px"></div>
+        <div style="margin-right: 5px; margin-left: 5px; margin-top: 20px"> Paisley</div>
+    </div>
+</div>
+<div class="container-fluid" id="primastriscia">
+    <div id="striscia-rossa" style="font-size: 42px; line-height: 1; position: relative; font-family: Signika Negative, Signika Negative-fallback, Open Sans, Open Sans-fallback, system-ui, sans-serif; font-weight: bolder">Brave Scots teenager who ran into grandparents' burning home to save dogs 'shocked' to make it out alive</div>
+</div>
+<div class="container-fluid" id="scritta">
+    Tyler Lau pulled off a daring rescue after realising Lhasa Apso Archie, 12, and XL Bully pup were inside his grandparents' homes it caught flame.
+</div>
+<hr style="height: 4px; color: #6F6F6F; margin-top:0; margin-left: 30px; margin-bottom: 0">
+<div class="container-fluid" style="background-color: white; height: 55px; margin-left: 30px; margin-top: 10px">
+    <div class="row" id="secondanav" style="height: 55px">
+        <div class="col-1" id="colonna1">
+            <div class="row-cols-1" id="riga1colonna1">
+                <img src="news.png" alt="news" style="height: 21px; width:40px">
+                <div>By</div>
+                <div style="color: red; text-decoration: underline"> Kaitlin Easton </div>
+                <div>Reporter</div>
+            </div>
+            <div class="row-cols-2" id="riga1clonna2">
+                <div style="font-size: 12px">04:30, 4 apr 2023</div>
+            </div>
+        </div>
+        <div class="col-2" style="width: 486px">
+            <div style="color: #6F6F6F; margin-top: 15px; float: left">Bookmark </div>
+            <i class="far fa-bookmark" style="color:red; width:5px; margin-right: 7px; margin-left: 7px; margin-top: 21px; float: left"></i>
+            <div style="margin-top: 13px; border-right: #6F6F6F 1px solid; width: 106px; height: 33px; float: left; margin-left: -89px"></div>
+            <i class="fab fa-facebook-square" style="color: blue; margin-top: 12px; margin-left: 22px; font-size: xx-large; float:left"></i>
+            <i class="fab fa-twitter-square" style="color: deepskyblue; margin-top: 12px; margin-left: 11px; font-size: xx-large; float:left"></i>
+            <div style="height: 28px; width:28px; margin-top: 14px; margin-left: 11px; float:left; background-color: #eb3c44">
+                <i class="fas fa-paperclip" style="color: white;font-size: x-large; margin:  2px 2px 2px 3px"></i>
+            </div>
+            <div class="rounded-pill" style="background-color: #eb3c44; width: 150px; height: 40px; float: right; margin-top: 7px; margin-right: 64px">
+                <i class="far fa-comment" style="color: white; font-size: x-large; margin-top: 7px; margin-left: 8px; float: left"></i>
+                <div style="float:left; color: white; margin-top:6px; margin-left:10px"> Comments &nbsp 5</div>
+            </div>
+            </div>
+    </div>
+</div>
+<hr style="height: 4px; color: #6F6F6F; margin-top:8px; margin-left: 30px; margin-bottom: 0">
+<div class="row" style="background-color: white; margin-top: 8px">
+        <div class="col-md-8" style="background-color:white; width: 62.66667%; border-right: grey 1px solid">
+            <img src="https://picsum.photos/680/400" id="immagine1" alt="immagine" style="margin-left: 42px">
+            <div class="container-fluid"  id="scrittaimm" style="background-color: #4D4D4D; width: 680px; height:100px; margin-left: 42px; font-size: 32px; line-height: 1.4; position: relative; font-family: Signika Negative, Signika Negative-fallback, Open Sans, Open Sans-fallback, system-ui, sans-serif; font-weight: bold; color: white; text-align: center">
+                WOMAN CRIES AS SHE FILMS AFTERMATH OF DEVASTING HOUSE FIRE
+            </div>
+            <div style="margin-left: 42px; margin-right: 47px; margin-top: 30px; line-height: 1.8; font-size: unset">
+                <div id="stessariga1">
+                A teenage boy who ran into his
+                    <div id="stessariga2" style="color: red; text-decoration: red underline">grandparents' burning home </div>
+                to save their two dogs has told of his shock at making it out alive.
+                </div>
+                <div style="margin-top: 20px">
+                    <div id="stessariga11">
+                    Tyler Lau, 16, spotted thick black smoke coming from the property in
+                    </div>
+                    <div id="stessariga22" style="color: red; text-decoration: red underline">Paisley</div>
+                    as he was walking home from school. After calling 999, the teenager leapt into action to save beloved Lhasa Apso Archie, 12, and XL Bully puppy Cardi, who were both trapped inside while his grandparents were on holiday.
+                </div>
+                <div style="margin-top: 20px">
+                    Brave Tyler told the Record: "I was heading to my grandparents house to grab my football boots and I saw a lot of smoke as I was coming out of the school gates.
+                </div>
+                <div style="margin-top: 20px">
+                "I realised it was coming from my nana's house and I started running. The smoke was pouring out out of their bedroom. All I could think was the dog's were inside.
+                </div>
+                <img src="https://picsum.photos/681/1130" id="imm2" alt="immgrossa" style="width: 100%; margin-top:20px;">
+                <div style="margin-top: 5px">
+                    <i class="material-icons" style="color: red; font-size: 18px; float: left">photo_camera</i>
+                    <div style="line-height: 14px; float: left; font-weight: bold; font-size: smaller; margin-right: 5px">
+                        Tyler rescued Archie and Cardi from his grandparents' burning home
+                    </div>
+                    <div style="line-height: 17px; font-size: 10px">
+                        (Image: Supplied)
+                    </div>
+                </div>
+                <hr style="margin-top: 30px">
+                <div>
+                    <img src="R.png" alt="erre" style="margin-top: 10px; margin-left: 25px; float: left">
+                    <div style="color:red; font-weight: bold; letter-spacing: 2px; font-size: x-large; line-height: 2.1; margin-left:75px; font-family: Open Sans, sans-serif">RELATED ARTICLES</div>
+                    <div class="row">
+                        <div class="col" style="background-color: white; margin-left: 20px; margin-top: 10px; margin-right: 10px;">
+                            <img src="https://picsum.photos/1080/700" alt="imm1" style="width: 100%;">
+                            <div>
+                                <div class="rounded-pill" style="float:left; background-color: #d3738a; height: 20px; width: 20px; margin-top: 5px">
+                                <i class="material-icons" style="color: white">keyboard_arrow_right</i>
+                                </div>
+                                <div style="line-height: normal; font-weight: bold; font-size: 19px; margin-top: 10px">Hundreds turn out for funeral of Scots teen who died playing football at school</div>
+                                <div style="clear: left"></div>
+                                <img src="dailybianco.png" alt="dailybianco" style="width: 40px">
+                            </div>
+                        </div>
+                        <div class="col" style="background-color: white; margin-right: 10px; margin-top:10px">
+                           <img src="https://picsum.photos/1080/701" alt="imm2" style="width: 100%;">
+                            <div>
+                                <div class="rounded-pill" style="float:left; background-color: #d3738a; height: 20px; width: 20px; margin-top: 5px">
+                                    <i class="material-icons" style="color: white">keyboard_arrow_right</i>
+                                </div>
+                                <div style="line-height: normal; font-weight: bold; font-size: 19px; margin-top: 10px">Mum's heartbreake as 'cheeky' two-year-old son found dead in bed from infection</div>
+                                <div style="clear: left"></div>
+                                <img src="dailybianco.png" alt="dailybianco" style="width: 40px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr style="margin-top: 30px">
+                <img src="https://picsum.photos/680/1131" id="imm3" alt="immgrossa" style="width:100%; margin-top:20px;">
+                <div style="margin-top: 5px">
+                    <i class="material-icons" style="color: red; font-size: 18px; float: left">photo_camera</i>
+                    <div style="line-height: 14px; float: left; font-weight: bold; font-size: smaller; margin-right: 5px">
+                        The family are said to be 'broken' by the fire
+                    </div>
+                </div>
+                <div style="margin-top: 40px; line-height: 1.8; font-size: unset">
+                    "I phoned the fire brigade and I was screaming that someone had to save my nana's dogs."
+                    <div style="margin-top: 10px"></div>
+                    A 999 call handler instructed the teenager to stay away from the blaze but Tyler could hear the whimpers and cries of both pets and feared they would perish.
+                    <div style="margin-top: 10px"></div>
+                    He tried to enter the front door of the property but was met with a wall of fire. The teenager then crawled through a tiny gap in the living room window and pulled both dogs out of the house.
+                    <div style="margin-top: 10px"></div>
+                    He continued: "I opened the front door and was hit with thick black smoke. I tried to walk through and the heat was burning my eyes.
+                    <div style="margin-top: 10px"></div>
+                    "I've never seen anything like it. I tried to smash through the glass doors with a garden tool but the triple glazed windows wouldn't break.
+                    <div style="margin-top: 10px"></div>
+                    "I spotted there was a tiny gap in the living room window. Sheer adrenaline forced me through it to get the dogs.
+                </div>
+                <img src="https://picsum.photos/679/1130" id="imm4" alt="immgrossa" style="width: 100%; margin-top:20px;">
+                <div style="margin-top: 5px">
+                    <i class="material-icons" style="color: red; font-size: 18px; float: left">photo_camera</i>
+                    <div style="line-height: 14px; float: left; font-weight: bold; font-size: smaller; margin-right: 5px">
+                        The family are said to be 'broken' by the fire
+                    </div>
+                </div>
+                <div style="margin-top: 40px; line-height: 1.8; font-size: unset">
+                    "I phoned the fire brigade and I was screaming that someone had to save my nana's dogs."
+                    <div style="margin-top: 10px"></div>
+                    A 999 call handler instructed the teenager to stay away from the blaze but Tyler could hear the whimpers and cries of both pets and feared they would perish.
+                    <div style="margin-top: 10px"></div>
+                    He tried to enter the front door of the property but was met with a wall of fire. The teenager then crawled through a tiny gap in the living room window and pulled both dogs out of the house.
+                    <div style="margin-top: 10px"></div>
+                    He continued: "I opened the front door and was hit with thick black smoke. I tried to walk through and the heat was burning my eyes.
+                    <div style="margin-top: 10px"></div>
+                    "I've never seen anything like it. I tried to smash through the glass doors with a garden tool but the triple glazed windows wouldn't break.
+                    <div style="margin-top: 10px"></div>
+                    "I spotted there was a tiny gap in the living room window. Sheer adrenaline forced me through it to get the dogs.
+                </div>
+            </div>
+            </div>
+        <div class="col-md-4" style="background-color: white">
+            <div class="container-fluid" style="background-color: #feebed; width: 350px">
+                <img src="freccia.png" alt="freccia" style="width: 30px; margin-top:17px">
+                <div style="float: right; margin-right: 136px; margin-top: 9px;color: #ea042c; font-weight: bold; font-size: x-large">MOST READ</div>
+                <div class="rounded-pill" style="float:left; background-color: #ef9daa; height: 25px; width: 25px; margin-top: 16px; color: white; font-weight: bold; text-align: -webkit-center"> 1 </div>
+                <img src="https://picsum.photos/1080/347" alt="immimpo" style="width: 260px; height: 160px; margin-left: 20px; margin-top:15px">
+                <div style="margin-left: 44px; margin-top: 15px; line-height: 1.4; width: 267px; color: black; font-weight: bold; font-size: 19px">Polish woman claming to be Madeline McCann finally receives results of DNA test</div>
+                <div class="rounded-pill" style="float:left; background-color: #ef9daa; height: 25px; width: 25px; margin-top: 16px; color: white; font-weight: bold; text-align: -webkit-center"> 2</div>
+                <img src="https://picsum.photos/1080/200" alt="immimpo" style="float:left; width: 116px; height: 92px; margin-left: 20px; margin-top:15px">
+                <div style="line-height: 1.2; color: black; font-weight: bold; font-size: 16px; margin-top: 11px; margin-left: 175px">Polish woman claming to be Madeline McCann finally receives results of DNA test</div>
+                <div style="clear: left"></div>
+                <div class="rounded-pill" style="float: left; background-color: #ef9daa; height: 25px; width: 25px; margin-top: 20px; color: white; font-weight: bold; text-align: -webkit-center; margin-right: 0"> 3</div>
+                <img src="https://picsum.photos/1080/353" alt="immimpo" style="float:left; width: 116px; height: 92px; margin-left: 20px; margin-top:15px">
+                <div style="line-height: 1.2; color: black; font-weight: bold; font-size: 16px; margin-top: 11px; margin-left: 175px">Woman dies after fall from cruise ship balcony and landing on another passenger</div>
+                <div style="clear: left"></div>
+                <div class="rounded-pill" style="float: left; background-color: #ef9daa; height: 25px; width: 25px; margin-top: 20px; color: white; font-weight: bold; text-align: -webkit-center; margin-right: 0"> 4</div>
+                <img src="https://picsum.photos/1080/361" alt="immimpo" style="float:left; width: 116px; height: 92px; margin-left: 20px; margin-top:15px">
+                <div style="line-height: 1.2; color: black; font-weight: bold; font-size: 16px; margin-top: 11px; margin-left: 175px">Scots woman' dies during gastric band surgery' in Turkey as loved ones pay tribute </div>
+                <div style="clear: left"></div>
+                <div class="rounded-pill" style="float: left; background-color: #ef9daa; height: 25px; width: 25px; margin-top: 20px; color: white; font-weight: bold; text-align: -webkit-center; margin-right: 0"> 5</div>
+                <img src="https://picsum.photos/1080/370" alt="immimpo" style="float:left; width: 116px; height: 92px; margin-left: 20px; margin-top:15px">
+                <div style="line-height: 1.2; color: black; font-weight: bold; font-size: 16px; margin-top: 11px; margin-left: 175px">Passenger dies on Jet2 flight as it returns from Tenerife forcing emergency landing</div>
+                <div style="clear: left; height:30px"></div>
+            </div>
+            <div class="container-fluid" style="position:relative; background-color:white; letter-spacing:2px; top:45px; left:-10px; font-size: small; font-weight: bold; margin-left: 23px; height:40px; width: 350px">
+                RECOMMENDED
+                <hr style="margin-top:5px">
+            </div>
+            <div class="container-fluid" style="background-color: white">
+                <img src="https://picsum.photos/1080/349" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:-3px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 50px; margin-left: 212px; margin-right: 35px">Polish woman claming to be Madeline McCan finally receives results of DNA test</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/345" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">One person dead and dozens injured after train carriages derail in horror crash </div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/344" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">Scots woman' dies during gastic band surgery' in Turkey</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/367" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">Scots dad who lost everything to 20-year alcohol addiction launches podcast</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/368" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">Hidden WW2 bunker resurfaces on Scots beach after storm causes shifting sands</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+            </div>
+            <div class="container-fluid" style="margin-top: 70px; position:relative; background-color:white; letter-spacing:2px; top:45px; left:-10px; font-size: small; font-weight: bold; margin-left: 23px; height:40px; width: 350px">
+                RECOMMENDED
+                <hr style="margin-top:5px">
+            </div>
+            <div class="container-fluid" style="background-color: white">
+                <img src="https://picsum.photos/1080/380" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:-3px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 50px; margin-left: 212px; margin-right: 35px">Woman dies after fall from cruise ship balcony and landing on another passenger</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/381" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">New DWP and HMRC weekly pay rates from next week for State Pension and benefits</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/382" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">Chris Sutton blasts 'petty' Rangers for 'shameful' away fan ban</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/383" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">Body discovered during search for missing 86-year-old Scots care home resident</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+            </div>
+            <div class="container-fluid" style="position:relative; background-color:white; letter-spacing:2px; top:45px; left:-10px; font-size: small; font-weight: bold; margin-left: 23px; height:40px; width: 350px">
+                RECOMMENDED
+                <hr style="margin-top:5px">
+            </div>
+            <div class="container-fluid" style="background-color: white">
+                <img src="https://picsum.photos/1080/300" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:-3px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 50px; margin-left: 212px; margin-right: 35px">The Bill actor George Rossi leaves £8m fortune in will after tragic death</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/301" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">Paisley creep caught with vilehaul of childabuse images</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/302" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">Ayrshire family's swamp garden nightmare 'blamed' on child and two dogs</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+                <img src="https://picsum.photos/1080/303" alt="immimpo" style="float:left; width: 175px; height: 100px; margin-left: 15px; margin-top:10px">
+                <div style="line-height: 1.4; color: black; font-weight: bold; font-size: 13px; margin-top: 30px; margin-left: 212px; margin-right: 35px">Man rushed to hospital after crashing into stationary unmarked police car on A77</div>
+                <div style="clear: left"></div>
+                <hr style="margin-top:25px; margin-right: 30px; margin-left: 13px">
+            </div>
+    </div>
+</div>
+<footer class="text-center text-lg-start text-white"  style="background-color: #141414" >
+    <div class="container-fluid" style="background-color:#141414; margin-top: 30px">
+        <section class="" style="margin-left: 50px; margin-right: 50px">
+            <div class="row" >
+                <div class="col-md-3">
+                    <h5 class="text-uppercase" style="margin-top: 50px; margin-bottom: 25px">NEWS</h5>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase" style="margin-top: 50px; margin-bottom: 25px">SPORT</h5>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase" style="margin-top: 50px; margin-bottom: 25px">CELEBS</h5>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="text-uppercase" style="margin-top: 50px; margin-bottom: 25px">LIFE & STYLE</h5>
+                </div>
+                <hr color="gray" size="6" />
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5 class="text-uppercase" style="text-align: center; font-size: 16px; margin-top: 10px;">FOLLOW US</h5>
+                </div>
+            </div>
+            <div class="row" style="text-align: center;">
+                <div class="icone">
+                    <i class="fab fa-facebook-square" style="color: blue;"></i>
+                    <i class="fab fa-twitter-square" style="color: deepskyblue;"></i>
+                    <i class="fab fa-instagram" style="color: hotpink;"></i>
+                </div>
+                <hr color="gray" size="6" />
+            </div>
+            <div class="row" style="justify-content: center">
+                <img src="footer.png" alt="footer" style="width: 300px; margin-bottom: 10px">
+                <hr color="gray" size="6" />
+            </div>
+            <div class="row" id="finale" style="color: gray; font-size: smaller; line-height: 2.5">
+                <div class="testo">
+                    Local News | Cookie Notice | Advertising | Marketplace | Book an Ad | Discount Codes | Hopsmore Beer Club | Beauty Box Subscription | Jobs | Buy a Photo | Competition Rules | How to Complain | Corrections & Clarifications | Google Survey | Privacy Notice |Sunday Mail Centenary Fund | Paper Subscription to the Daily Record and Sunday Mail | Paper Aubscription to the Paisley Daily  Express | Newsletters Signup | Syndication & Licensing | Terms and Conditions | Notifications and alters help | 2023 Scottish Daily Record and Sunday Mail Ltd |
+                    <a href="#">
+                        In Your Area
+                    </a>
+                    <a href="#">
+                        MemoryLane
+                    </a>
+                    <a href="#">
+                        About Us
+                    </a>
+                    <a href="#">
+                        Contact Us
+                    </a>
+                    <a href="#">
+                        Work for us
+                    </a>
+                    <a href="#">
+                        Got a story?
+                    </a>
+                    <a href="#">
+                        Local News </a>
+                    <a href="#">
+                        Cookie Notice </a>
+                    <a href="#">
+                        Advertising</a>
+                    <a href="#">
+                        Marketplace </a>
+                    <a href="#">
+                        Book an Ad</a>
+                    <a href="#">
+                        Discount Codes</a>
+                    <a href="#">
+                        Hopsmore Beer Club</a>
+                    <a href="#">
+                        Beauty Box Subscription</a>
+                    <a href="#">
+                        Jobs</a>
+                    <a href="#">
+                        Buy a Photo </a>
+                    <a href="#">
+                       Competition Rules</a>
+                    <a href="#">
+                        How to Complain </a>
+                    <a href="#">
+                        Corrections & Clarifications</a>
+                    <a href="#">
+                       Google Survey </a>
+                    <a href="#">
+                        Privacy Notice</a>
+                    <a href="#">
+                       Sunday Mail Centenary Fund </a>
+                    <a href="#">
+                        Paper Subscription to the Daily Record and Sunday Mail </a>
+                    <a href="#">
+                       Paper Aubscription to the Paisley Daily  Express</a>
+                    <a href="#">
+                       Newsletters Signup</a>
+                    <a href="#">
+                        Syndication & Licensing </a>
+                    <a href="#">
+                       Terms and Conditions</a>
+                    <a href="#">
+                       Notifications and alters help</a>
+                    <a href="#" style="border-right: none">
+                       2023 Scottish Daily Record and Sunday Mail Ltd |
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
