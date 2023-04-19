@@ -347,7 +347,7 @@ i, p{
      #iconcolor4{
           position: fixed;
           left: 400px !important;
-          top:35px;
+          top:32px;
      }
 
      #iconcolor5{
@@ -479,6 +479,7 @@ i, p{
      margin-right: 50px;
      margin-top: 30px;
      font-size: 16px;
+     z-index: 4;
 }
 
 #immaginelogo{
